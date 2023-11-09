@@ -14,7 +14,6 @@ def browse_files():
         desktop_path = os.path.expanduser("~/Desktop")
         extract_rar(archive_file, desktop_path)
 
-# Создание графического интерфейса
 window = tk.Tk()
 window.title("RAR Extractor")
 
